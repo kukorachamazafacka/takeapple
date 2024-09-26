@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сорви яблоко</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex; /* Включаем Flexbox */
+            justify-content: center;
+            padding: 20px;
+            justify-content: flex-start; /* Элементы будут выровнены слева */
+        }
+        .item {
+            background: #fff;
+            margin: 20px auto;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px; /* Ширина карточки товара */
+        }
+        .button {
+        display: inline-block;
+        background-color: green; /* Цвет фона */
+        color: white; /* Цвет текста */
+        padding: 10px 25px; /* Отступы */
+        border-radius: 8px; /* Закругленные углы */
+        text-decoration: none; /* Убираем подчеркивание */
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Сорви яблоко</h1>
+</header>
+<main>
+    <div class="container">
+        <div class="item">
+            <img src="iphone15pro.jpg" alt="iphone15pro" usemap="#image-map">
+            <map name="image-map">
+                <area target="_blank" alt="iPhone 15 Pro" title="iPhone 15 Pro" href="https://i-point.ru/iphone-15-pro/128gb/blue-titanium/" coords="2,3,224,224" shape="rect">
+            </map>
+            <h2>iPhone 15 Pro</h2>
+            <p>Относительно новый айфон, все таки не последний, но хороший</p>
+            <h3> Цена 75тыс.</h3>
+            <a href="index2.html" class="button">Купить</a>
+        </div>
+        <div class="item">
+            <img src="iphone16.jpg" alt="iphone16" usemap="#image-map1">
+            <map name="image-map1">
+                <area target="_blank" alt="iphone 16" title="iphone 16" href="https://istudio-shop.ru/catalog/iPhone/iPhone-16/Apple-iPhone-16-128Gb-Blue-Sim-80811851.html" coords="0,9,189,254" shape="rect">
+            </map>
+            <h2> iPhone 16</h2>
+            <p> Новый айфон от тима кука, покупайте!</p>
+            <h3> Цена 130тыс.</h3>
+            <a href="index3.html" class="button">Потратить деньги</a>
+        </div>
+        <div class="item">
+            <img src="iphone12pro.jpg" alt="iphone12pro" usemap="#image-map2">
+            <map name="image-map2">
+                <area target="_blank" alt="iPhone 12 Pro" title="iPhone 12 Pro" href="https://www.avito.ru/all/telefony/mobilnye_telefony/apple/iphone_12/belyy-ASgBAgICBESwwA3u_zeywA36gTy0wA3OqzmwwQ2I_Dc?q=Apple+iPhone+12+Pro" coords="7,9,222,215" shape="rect">
+            </map>
+            <h2> iPhone 12 Pro </h2>
+            <p>В белом цвете красив, продаю свой</p>
+            <h3> Цена 35тыс.</h3>
+            <a href="index4.html" class="button">Приобрести</a>
+        </div>
+    </div>
+<footer>
+    <p>© 2024 Сорви яблоко. Все права куплены.</p>
+    <P>Скорее всего товар к вам не придет. Спасибо за сотрудничество!</P>
+</footer>
+
+</body>
+</html>
